@@ -1,0 +1,25 @@
+#library {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.enjoy {
+    font-size: 28px;
+}
+
+.play-icon {
+    color: grey;
+    font-size: 80px;
+}
+
+.play-icon,.enjoy,.liked {
+    padding: 4px 0;
+}
+
+.play-icon {
+    padding-bottom: 10px;
+}
+
+.liked {
+    padding-bottom: 10px;
+}

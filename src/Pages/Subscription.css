@@ -1,0 +1,21 @@
+#subscription {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.subscription-icon {
+    color: grey;
+    font-size: 80px;
+}
+
+.dont-miss {
+    font-size: 28px;
+}
+
+.subscription-icon,.dont-miss,.favourites {
+    padding: 4px 0;
+}
+
+.favourites {
+    padding-bottom: 10px;
+}

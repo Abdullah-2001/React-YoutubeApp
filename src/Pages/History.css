@@ -1,0 +1,41 @@
+#history {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.history-icon {
+    color: grey;
+    font-size: 80px;
+}
+
+.keep-track {
+    font-size: 28px;
+    padding-top: 25px;
+}
+
+.history-icon, .dont-miss, .favourites {
+    padding: 4px 0;
+}
+
+.viewable {
+    padding-bottom: 10px;
+}
+
+/* sidenav */
+
+.sidenav {
+    /* margin-top: -400px; */
+    /* height: 100%; */
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    float: right;
+    background-color: rgb(235, 235, 235);
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.history-type {
+    font-size: 18px;
+}

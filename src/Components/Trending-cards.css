@@ -1,0 +1,51 @@
+.card-container {
+    margin-top: 30px;
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.card-container:hover {
+    color: black;
+}
+
+.title-1 {
+    margin-left: 20px;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.title-2 {
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.title-3 {
+    font-size: 13px;
+    margin-left: 20px;
+}
+
+.title-4 {
+    margin-left: 12px;
+    font-size: 13px;
+}
+
+.title-5 {
+    font-size: 13px;
+    margin-left: 20px;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+#verified {
+    margin-left: 5px;
+    color: rgb(85, 85, 85);
+}
+
+@media only screen and (max-width:991px) {
+    .title-1 {
+        font-size: 15px;
+    }
+}

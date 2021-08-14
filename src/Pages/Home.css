@@ -1,0 +1,67 @@
+.card {
+    cursor: pointer;
+    background-color: transparent !important;
+    border: none !important;
+    width: 310px;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: -8px;
+}
+
+.channel {
+    padding: 0 55px 0 56px;
+}
+
+.views-time {
+    font-size: 15px;
+    padding: 0 0 0 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-img {
+    width: 100%;
+}
+
+img.logo-img {
+    border-radius: 50%;
+}
+
+.title {
+    font-weight: 500;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.title:hover {
+    text-decoration: underline;
+}
+
+.time {
+    padding: 0 0 0 10px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.channel-name, .month, .views {
+    color: rgb(98, 98, 98);
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
+
+.channel-name:hover {
+    color: black;
+}
+
+.video-duration {
+    z-index: 1;
+    padding-left: 265px;
+    margin-top: -25px;
+    margin-bottom: 0;
+    color: white;
+}

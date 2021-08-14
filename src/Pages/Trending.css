@@ -1,0 +1,30 @@
+.container-1 {
+    border-bottom: 1px solid rgb(192, 191, 191);
+    padding-bottom: 20px;
+}
+
+.music-div, .game-div, .movie-div {
+    display: inline-block;
+    text-align: center;
+}
+
+.movie-img, .music-img, .game-img {
+    border-radius: 50%;
+    padding: 5px 80px;
+}
+
+.music, .game, .movie {
+    display: block;
+    font-weight: 600;
+    color: grey;
+}
+
+@media only screen and (max-width:1200px) {
+    .container-1 {
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .movie-img, .music-img, .game-img {
+        padding: 5px 40px;
+    }
+}
